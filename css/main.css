@@ -1,0 +1,29 @@
+html{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-attachment: fixed;
+  background-image: url("/images/background.jpg");
+  background-size: cover !important;
+  text-decoration: none;
+}
+body{
+	max-height: 100vh;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
+}
+body, html {
+  margin: 0;
+  font: 400 15px/1.8 'Arsenal', 'Lato', sans-serif;
+}
+
+#placeholder {
+	width: 100vw;
+	height: 100vh;
+}
+#placeholder img{
+	height: 80%;
+	width: auto;
+	align-items: center;
+}
