@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	transition: all ease-in-out;
-	overflow: hidden;
 }
 
 .flexContainer {
@@ -46,6 +45,11 @@
 .embed{
 	height: 100vh;
 	width: 100vw;
+}
+
+.static{
+	position: fixed;
+	overflow: hidden;
 }
 
 img {
