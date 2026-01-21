@@ -95,3 +95,9 @@ section p {
         width: 100%;
     }
 }
+
+@media (max-height: 500px) and (orientation: landscape) {
+    .right-pane {
+        padding: 20px;
+    }
+}
