@@ -69,7 +69,6 @@ img {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: xxx-large;
-	font-weight: bold;
 	font-family: 'Poiret One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-decoration: none;
 	color: black;
@@ -82,7 +81,7 @@ img {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 4) {
 	.textBox {
-		font-size: xx-large;
+		font-size: x-large;
 	}
 }
 
@@ -103,7 +102,7 @@ img {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
 	.textBox {
-		font-size: xx-large;
+		font-size: x-large;
 	}
 }
 
