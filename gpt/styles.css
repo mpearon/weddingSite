@@ -24,11 +24,13 @@ body {
 /* Left pane */
 .left-pane {
     position: fixed;
+    /*
     top: 0;
     left: 0;
     width: 60%;
     height: 100vh;
     overflow: hidden;
+    */
 }
 .left-pane > img{
     width: 100%;
@@ -44,7 +46,7 @@ body {
     min-height: 100vh;
 
     background-color: #f8f8f8;
-    padding: 0;
+    padding: 40px;
 
     overflow-y: auto;
 }
