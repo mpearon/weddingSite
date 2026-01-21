@@ -13,10 +13,8 @@ html, body {
 }
 
 body {
-    /*
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
-    */
 }
 
 
@@ -93,11 +91,5 @@ section p {
     .right-pane {
         margin-left: 0;
         width: 100%;
-    }
-}
-
-@media (max-height: 500px) and (orientation: landscape) {
-    .right-pane {
-        padding: 20px;
     }
 }
