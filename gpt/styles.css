@@ -1,0 +1,74 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Left pane */
+.left-pane {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60vw;
+    height: 100vh;
+
+    background-image: url("/images/family.JPG");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    overflow: hidden;
+}
+
+/* Right pane */
+.right-pane {
+    margin-left: 60vw;
+    width: 40vw;
+    min-height: 100vh;
+
+    background-color: #f8f8f8;
+    padding: 40px;
+
+    overflow-y: auto;
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    background: #f8f8f8;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    margin-bottom: 80px;
+}
+
+section h1 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
