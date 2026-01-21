@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: red;
 }
 
 html, body {
@@ -26,7 +25,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 60%;
+    width: 60vw;
     height: 100vh;
     overflow: hidden;
 }
@@ -39,8 +38,8 @@ body {
 
 /* Right pane */
 .right-pane {
-    margin-left: 60%;
-    width: 40%;
+    margin-left: 60vw;
+    width: 40vw;
     min-height: 100vh;
 
     background-color: #f8f8f8;
