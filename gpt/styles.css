@@ -1,6 +1,6 @@
 /* Reset */
 * {
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     margin: 0;
     padding: 0;
 }
@@ -24,13 +24,11 @@ body {
 /* Left pane */
 .left-pane {
     position: fixed;
-    /*
     top: 0;
     left: 0;
     width: 60%;
     height: 100vh;
     overflow: hidden;
-    */
 }
 .left-pane > img{
     width: 100%;
