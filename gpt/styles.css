@@ -86,12 +86,12 @@ section p {
 @media (max-width: 900px) and (orientation: portrait) {
     .left-pane {
         position: relative;
-        width: 100%;
+        width: 100vw;
         height: 60vh;
     }
 
     .right-pane {
         margin-left: 0;
-        width: 100%;
+        width: 100vw;
     }
 }
