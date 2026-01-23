@@ -53,6 +53,7 @@ body {
     padding: 40px;
 
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 /* Navigation */
@@ -100,5 +101,6 @@ section p {
     .right-pane {
         margin-left: 0;
         width: 100%;
+        padding: 40px 20px;
     }
 }
