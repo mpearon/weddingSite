@@ -50,7 +50,7 @@ body {
     min-height: 100vh;
 
     background-color: #f8f8f8;
-    padding: 40px 20px;
+    /*padding: 40px 20px;*/
 
     overflow-y: auto;
     overflow-x: hidden;
