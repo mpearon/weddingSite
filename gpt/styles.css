@@ -49,8 +49,6 @@ body {
     margin-left: 60%;
     width: 40%;
     min-height: 100vh;
-
-    background-color: #20304a;
     /*padding: 40px 20px;*/
 
     overflow-y: auto;
@@ -61,7 +59,6 @@ body {
 nav {
     position: sticky;
     top: 0;
-    background: #f8f8f8;
     padding-bottom: 20px;
     margin-bottom: 40px;
 }
