@@ -24,4 +24,4 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "We're Married!";
   }
-}, 1000);
+}, 60000);
