@@ -83,8 +83,17 @@ section {
 	transform: translate(-50%, -50%);
 }
 
-.right-pane > .center{
-    
+.right-pane > .textBox {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: xxx-large;
+	font-family: 'Poiret One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	color: black;
+	margin: 15px;
 }
 
 section h1 {
