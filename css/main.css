@@ -1,12 +1,16 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: all ease-in-out;
+}
+
 html {
 	width: 100%;
+	height: 100%;
 	overflow-x: hidden;
 }
 
-* {
-	margin: 0;
-	transition: all ease-in-out;
-}
 
 .flexContainer {
 	display: flex;
