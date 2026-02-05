@@ -78,7 +78,7 @@ nav a:hover {
 section {
 }
 
-.right-pane > .textBox {
+.right-pane > .textBox p {
 	text-align: center;
 	position: relative;
 	top: 50%;
