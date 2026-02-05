@@ -76,11 +76,6 @@ nav a:hover {
 
 /* Sections */
 section {
-    /*margin-bottom: 80px;*/
-    position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 
 .right-pane > .textBox {
