@@ -19,7 +19,7 @@ function updateCountdown() {
 
   // If the count down is finished, write some text
   if (distance < 0) {
-    clearInterval(x);
+    //clearInterval(x);
     document.getElementById("countdown").innerHTML = "We're Married!";
   }
 }
