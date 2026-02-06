@@ -11,13 +11,14 @@ html, body {
     color: #333;
     background-color: #fff;
 	overflow: hidden;
+	height: 100vh;
 }
 
 /* Mobile-First: Vertical Stack */
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 99%;
 }
 
 .image-pane {
