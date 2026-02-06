@@ -62,8 +62,8 @@ html, body {
     margin-bottom: 0.75rem;
 }
 
-/* Desktop/Landscape: Horizontal Layout */
-@media (orientation: landscape) and (min-width: 768px) {
+/* Landscape: Horizontal Layout */
+@media (orientation: landscape) {
     .container {
         flex-direction: row;
     }
