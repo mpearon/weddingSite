@@ -73,12 +73,11 @@ html, body {
     .image-pane {
         position: fixed;
         top: 0;
-        left: 0;
-        width: 60vw;
+        left: calc(-1 * env(safe-area-inset-left));
+        width: calc(60vw + env(safe-area-inset-left));
         height: 100vh;
         flex-shrink: 0;
         overflow: hidden;
-        margin-left: calc(-1 * env(safe-area-inset-left));
     }
 
     .image-pane img {
