@@ -62,6 +62,25 @@ body {
 #title{
 	font-size: xxx-large;
 	font-family: 'Ballet', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: .5;
+}
+.hidden{
+	display: none;
+}
+#title > .line1{
+	padding-left: 0;
+	display: block;
+	margin-left: -100px;
+}
+#title > .line2{
+	display: block;
+	z-index: 0;
+	color: goldenrod;
+}
+#title > .line3{
+	padding-left: 0;
+	display: block;
+	margin-left: 100px;
 }
 #eventDetails, #countdown{
 	font-size: x-large;
