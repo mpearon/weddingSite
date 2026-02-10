@@ -61,7 +61,6 @@ body {
 #title{
 	font-size: xxx-large;
 	font-family: 'Ballet', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	line-height: .5;
 }
 .hidden{
 	display: none;
@@ -69,17 +68,18 @@ body {
 #title > .line1{
 	padding-left: 0;
 	display: block;
-	margin-left: -100px;
+	line-height: 0.8;
 }
 #title > .line2{
 	display: block;
 	z-index: 0;
 	color: goldenrod;
+	line-height: 0.6;
 }
 #title > .line3{
 	padding-left: 0;
 	display: block;
-	margin-left: 100px;
+	line-height: 1.2;
 }
 #eventDetails, #countdown{
 	font-size: x-large;
@@ -100,5 +100,14 @@ body {
 	}
 	.backgroundLayer > .pane > img{	
 		min-width: 100%;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	.w60 {
+		width: 50%;
+	}
+	.w40 {
+		width: 50%;
 	}
 }
