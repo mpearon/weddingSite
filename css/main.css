@@ -69,9 +69,9 @@ body {
 }
 .menu{
 	position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 0;
 	z-index: 2;
+	width: 100%;
 }
 #title > .line1{
 	padding-left: 0;
@@ -105,5 +105,11 @@ body {
 	.w40 {
 		width: 40%;
 		height: 100%;
+	}
+	.menu{
+		position: absolute;
+		top: 0;
+		z-index: 2;
+		width: 40%;
 	}
 }
