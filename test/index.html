@@ -1,36 +1,46 @@
+<!DOCTYPE html>
 <html>
-
-<head>
-	<link rel='stylesheet' type='text/css' href='/css/style.css'>
-	<link href="https://fonts.googleapis.com/css2?family=Poiret+One" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, user-scalable=no">
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-	<meta http-equiv="Pragma" content="no-cache" />
-	<meta http-equiv="Expires" content="0" />
-	<title>M+A</title>
-</head>
-
-<body>
-	<section class="flexContainer">
-		<section class="flexBox width-60 static">
-			<img class="fitFrame" src="/images/family.JPG">
-		</section>
-		<section class="flexBox width-40">
-			<section class="textBox">
-				August 22, 2026<br />
-				<br />
-				Kansas City, Missouri
-			</section>
-			<section class="textBox">
-				<a href="./contact">
-					<button>Provide Contact Details</button>
-				</a>
-				<br />
-				<a href="./rsvp">
-					<button>RSVP</button>
-				</a>
-			</section>
-		</section>
-</body>
-
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Ballet" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+		<title>M+A</title>
+	</head>
+	<body>
+		<!-- Background Layer -->
+		<div class="layerContainer backgroundLayer">
+			<div class="pane w60">
+				<img id="backgroundImage" src="images/family.JPG">
+			</div>
+			<div class="pane w40"></div>
+		</div>
+		<!-- Foreground Layer -->
+		<div class="layerContainer foregroundLayer">
+			<div class="pane w60"></div>
+			<div class="pane w40 center">
+				<div class="menu">
+					<a href="#home">Home</a>
+					<a href="#rsvp">RSVP</a>
+					<a href="#FAQs">RSVP</a>
+				</div>
+				<div class="textBox">
+					<span id="title">
+						<text class="line1">Alexandra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+						<text class="line2">&</text>
+						<text class="line3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matthew</text>
+					</span>
+					<span id="eventDetails">
+						22 AUGUST, 2026<br />
+						KANSAS CITY, MISSOURI
+					</span>
+					<span id="countdown"></span>
+				</div>
+			</div>
+		</div>
+		<script src="scripts/countdown.js"></script>
+	</body>
 </html>
